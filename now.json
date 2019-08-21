@@ -5,5 +5,10 @@
     "builds": [{ "src": "server.js", "use": "@now/node-server" }],
     "routes": [
         { "src": "/", "dest": "/server.js" }
-      ]
+      ],
+    "env":{"ENVIRONMENT": "@ENVIRONMENT"},
+    "build":{
+      "env":{"ENVIRONMENT": "@ENVIRONMENT"}
+    }
+
 }
