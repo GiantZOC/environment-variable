@@ -1,0 +1,9 @@
+{
+    "name": "environment-variable",
+    "version": 2,
+    "alias": "environment-variable",
+    "builds": [{ "src": "server.js", "use": "@now/node-server" }],
+    "routes": [
+        { "src": "/", "dest": "/server.js" }
+      ]
+}
