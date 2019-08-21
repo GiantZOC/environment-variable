@@ -6,9 +6,5 @@
     "routes": [
         { "src": "/", "dest": "/server.js" }
       ],
-    "env":{"ENVIRONMENT": "@ENVIRONMENT"},
-    "build":{
-      "env":{"ENVIRONMENT": "@ENVIRONMENT"}
-    }
-
+    "env":{"ENVIRONMENT": "@ENVIRONMENT"}
 }
